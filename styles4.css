@@ -1,0 +1,132 @@
+
+.back-to-top {
+    margin-top: -150px;
+}
+
+.pb-3,.py-3 {
+    padding-bottom: 0rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(230, 230, 230);
+}
+
+._top-nav * {
+    transition: all 500ms;
+}
+
+.no-fixed {
+    background-color: #ffffffe6 !important;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important
+}
+
+.no-fixed img {
+    display: none;
+}
+
+.no-fixed h1 {
+    font-size: 17px;
+}
+
+.no-fixed .navbar-dark .navbar-nav .nav-link {
+    color: rgb(30, 30, 30);
+}
+
+.no-fixed .text-light {
+    color: rgb(30, 30, 30) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #E45F4E;
+}
+
+#cat {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    border-radius: 3px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(245, 245, 245, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.nav-link {
+    font-size: 14px !important;
+}
+
+.highlight {
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.goog-te-gadget-simple {
+    background-color: #eb767600;
+    font-size: 10pt;
+    display: inline-block;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    color: black !important;
+    border: 0 !important;
+    position: relative;
+    left: -19px;
+
+}
+
+.goog-te-gadget-simple span {
+    color: rgb(255, 255, 255) !important;
+}
+p {
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+img {
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+user-select: none;
+-webkit-user-drag: none;
+user-drag: none;
+-webkit-touch-callout: none;
+}
